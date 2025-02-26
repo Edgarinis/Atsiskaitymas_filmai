@@ -20,7 +20,6 @@ while True:
     if prisijungimo_input in ['organizatorius', 'ziurovas']:
         break
     print("Klaida! Prisijunkite kaip 'organizatorius' arba 'ziurovas'. ")
-prisijungimo_input = 'ziurovas'
 programa_ijungta = True
 #========================= ORGANIZATORIAUS MAIN MENU ===============================================================================
 while programa_ijungta:
@@ -273,6 +272,7 @@ while programa_ijungta:
                 print (f'{eil_nr}. {filmas}')
                 eil_nr = eil_nr +1
             print ('\n1. Atlikti rezervacija\n2. Ivertinti filma\nENTER - grizti.')
+            
             seansu_submenu = input('Jusu veiksmas: ')
             if seansu_submenu == '1':
                 try:

@@ -1,4 +1,5 @@
 import pickle
+from klases.seansai import Seansas
 class Organizatorius:
     filmu_biblioteka = []
     seansai = []

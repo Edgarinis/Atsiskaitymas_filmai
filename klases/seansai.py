@@ -11,3 +11,4 @@ class Seansas:
         return f"{self.diena}, {self.valanda}:{self.minute}"
     def laisvos_vietos(self):
         return int(self.vietu_skaicius)
+    

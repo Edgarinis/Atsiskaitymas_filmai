@@ -1,3 +1,5 @@
+from klases.organizatorius import Organizatorius
+import pickle
 class Ziurovas:
     def __init__(self,amzius):
           self.amzius = amzius
