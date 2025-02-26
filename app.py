@@ -15,15 +15,15 @@ def tuscias_input(ivestis):
 #   Uzkraunami pickle failai paleidus programa
 Organizatorius.videotekos_inicializacija()
 Organizatorius.seansu_inicializacija()
-# while True:
-#     prisijungimo_input = str(input("Prisijunkite kaip 'organizatorius' arba 'ziurovas': "))
-#     if prisijungimo_input in ['organizatorius', 'ziurovas']:
-#         break
-#     print("Klaida! Prisijunkite kaip 'organizatorius' arba 'ziurovas'. ")
+while True:
+    prisijungimo_input = str(input("Prisijunkite kaip 'organizatorius' arba 'ziurovas': "))
+    if prisijungimo_input in ['organizatorius', 'ziurovas']:
+        break
+    print("Klaida! Prisijunkite kaip 'organizatorius' arba 'ziurovas'. ")
 prisijungimo_input = 'ziurovas'
 programa_ijungta = True
 #========================= ORGANIZATORIAUS MAIN MENU ===============================================================================
-while programa_ijungta and prisijungimo_input in ['ziurovas','organizatorius']:
+while programa_ijungta:
     if prisijungimo_input == 'organizatorius':
         print("""Prisijungta organizatoriaus teisemis. Pasirinkite veiksma:
                 1 - Prideti nauja filma
